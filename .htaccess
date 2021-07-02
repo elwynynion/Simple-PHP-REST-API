@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+php_flag session.use_trans_sid off 
+
+php_value session.cookie_httponly 1
+php_value session.cookie_secure 1
+php_value session.use_only_cookies 1
+
+ErrorDocument 403 /error-xaxa/403.html
+ErrorDocument 404 /error-xaxa/404.html
+ErrorDocument 500 /error-xaxa/505.html
+
+RewriteRule ^view/([0-9]+) test.php?username=$1
+RewriteRule ^testapi/([A-Za-z0-9-\s]+) test.php?username=$1
+
+RewriteRule ^api/([A-Za-z0-9-\s]+) api.php?product_id=$1

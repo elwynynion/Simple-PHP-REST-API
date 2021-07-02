@@ -1,0 +1,59 @@
+body::-webkit-scrollbar {
+    width: 6px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #dcdcdc; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid transparent; /* creates padding around scroll thumb */
+}
+body {
+    font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    background: white;
+}
+strong, b {
+    color: #374151;
+}
+a {
+    text-decoration: none !important;
+}
+.brand-logo {
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+}
+.nav-text-pro {
+    font-family: 'Sora', sans-serif !important;
+    font-weight: 600;
+    color: #1F2937;
+    vertical-align: middle;
+}
+.rounded-pro {
+    border-radius: 0.375em;
+}
+.text-grey {
+    color: #374151;
+}
+.form-control {
+	height: auto;
+	background: #f2f2f2;
+	box-shadow: none !important;
+	border: none;
+    vertical-align: middle;
+}
+.form-control:focus {
+	background: #e2e2e2;
+}
+.font-pro-g {
+    display: inline-block;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
