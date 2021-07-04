@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta  name="description"  content="Paste your code into the text box, select the tab spacing that you want and click the format button." />
+    <meta  name="description"  content="Simple PHP REST API" />
 
-    <meta  property="og:url"  content="https://webformatter.com/" />
+    <meta  property="og:url"  content="https://example.com" />
 
     <meta  property="og:type"  content="website" />
 
-    <meta  property="og:title"  content="Web Formatter" />
+    <meta  property="og:title"  content="PHP REST API" />  
 
-    <meta  property="og:description"  content="Paste your code into the text box, select the tab spacing that you want and click the format button." />
+    <meta  property="og:description"  content="Simple REST API" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
 
